@@ -18,7 +18,7 @@ class _VideoPlayerExampleState extends State<VideoPlayerExample> {
   @override
   void initState() {
     super.initState();
-    controller = VideoPlayerController.network(widget.videoUrl);
+    controller = VideoPlayerController.network(videoUrl);
 
     controller.addListener(() {
       setState(() {});
